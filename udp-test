@@ -1,0 +1,8 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -
+import sys
+import socket
+host=str(sys.argv[1])
+port=int(sys.argv[2])
+udp_sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+udp_sock.sendto('PING', (host, port))
