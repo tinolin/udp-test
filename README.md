@@ -1,4 +1,6 @@
 # udp-test
 Python udp-test
+*Else udp ping tool
 
-./udp-test <Host> <udp-port>
+
+./udp-test [HOST] [udp-port]
